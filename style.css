@@ -1,0 +1,148 @@
+/* Main purple color: #2d2640 */
+/* greyish blue color:#95a9c6 */
+/* very light grey color: #fafafa */
+/* dark greyish violet: 	#837d87 */
+/* very dark violet: #2b272f */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+
+body{
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+
+.navBar{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background:#fff;
+  padding:8px 0 0 8px;
+}
+
+.navOuter{
+  width:50%;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.logo{
+  display:flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 10%;
+}
+
+.navItemOuter{
+  display:flex;
+  flex-direction: row;
+}
+
+.navOuter ul li{
+  list-style: none;
+}
+
+.navOuter ul li a{
+  text-decoration: none;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-right: 50px;
+  color:#837d87;
+  padding:5px 10px 5px 10px;
+}
+
+.navOuter ul li a:focus{
+  border:1px solid #2d2640;
+}
+
+.hero{
+  height:100%;
+  max-height: 70vh;
+  background:#2d2640;
+  display: flex;
+  flex-direction: row;
+}
+
+.heroInner hr{
+  width:150px;
+  height:1px;
+  background: #fff;
+  margin-left:1%;
+}
+
+.heroInner{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width:50%;
+  height:100%;
+  /* border:1px solid red; */
+}
+
+.heroInner h1{
+  font-family: 'DM Serif Display', serif;
+  color:#fff;
+  font-size: 3em;
+  line-height: 1em;
+}
+
+.heroInner p{
+  color:#fff;
+  font-size: 1em;
+  font-family: 'Karla', sans-serif;
+  transform:translateY(-30px);
+  padding-right:10%;
+}
+
+.heroLeft{
+  padding-left: 10%;
+}
+
+.heroRight{
+  padding-right:5%;
+}
+
+.heroRight img{
+  width:350px;
+  height:auto;
+  transform:translateY(100px);
+}
+
+.mainBtn{
+  color:#fff;
+  padding:10px 20px;
+  border:1px solid #fff;
+  font-family: 'Karla', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.bodyContent{
+  height:100vh;
+  padding-top: 20%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 10%;
+}
+
+.bodyContent h1{
+  font-family: 'DM Serif Display', serif;
+  color:#2d2640;
+  font-size: 5em;
+  line-height: 1em;
+
+}
+
+.bodyContent hr{
+  background: #2d2640;
+  height: .5px;
+  width:300px;
+}
